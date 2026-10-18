@@ -6,7 +6,7 @@
 /*   By: idsincer <idsincer@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/29 00:10:45 by idsincer          #+#    #+#             */
-/*   Updated: 2026/10/18 16:50:39 by idsincer         ###   ########.fr       */
+/*   Updated: 2026/10/18 17:28:15 by idsincer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,5 +35,11 @@ void	sb(t_stack *b, char flag);
 void	ss(t_stack *a, t_stack *b);
 void	pa(t_stack *a, t_stack *b);
 void	pb(t_stack *a, t_stack *b);
+void	ra(t_stack *a, char flag);
+void	rb(t_stack *a, char flag);
+void	rr(t_stack *a, t_stack *b);
+void	rra(t_stack *a);
+void	rrb(t_stack *b);
+void	rrr(t_stack *a, t_stack *b);
 
 #endif
