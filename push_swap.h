@@ -6,7 +6,7 @@
 /*   By: idsincer <idsincer@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/29 00:10:45 by idsincer          #+#    #+#             */
-/*   Updated: 2026/10/10 09:32:25 by idsincer         ###   ########.fr       */
+/*   Updated: 2026/10/18 16:50:39 by idsincer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,14 +25,15 @@ typedef struct s_node
 
 typedef struct s_stack
 {
-	t_node	*top;
-	t_node	*bottom;
-	int		size;
+	t_node			*top;
+	t_node			*bottom;
+	int				size;
 } t_stack;
 
-t_node *create_node(int value);
-void	ft_stack_add_back(t_stack *stack, t_node *new_node);
-void	ft_stack_add_front(t_stack *stack, t_node *new);
-t_stack *push(t_stack *stack, t_node *node);
+void	sa(t_stack *a, char flag);
+void	sb(t_stack *b, char flag);
+void	ss(t_stack *a, t_stack *b);
+void	pa(t_stack *a, t_stack *b);
+void	pb(t_stack *a, t_stack *b);
 
 #endif
